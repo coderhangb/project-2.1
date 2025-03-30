@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #1EBFC1;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    height: 5000px;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* ===========================Common================================ */
+.main-content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0px 16px;
+    min-width: 186px;
+    line-height: 68px;
+    border-radius: 14px;
+    background: #2AC9BF;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* ===========================Header================================ */
+.header.fixed{
+    position: sticky;
+    top: -44px;
+    z-index: 1;
+}
+
+.header .body {
+    padding: 52px 0px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.header .body .logo {
+    margin-right: 235px;
+}
+
+.header .body .nav ul {
+    display: flex;
+    gap: 39px;
+}
+
+.header .body .nav ul a {
+    color: #2F3A3B;
+}
+
+.header .body .nav ul a:hover {
+    text-decoration: underline;
+}
+
+.header .body .action {
+    display: flex;
+    margin-left: auto;
+}
+
+.header .body .action .action-btn {
+    display: inline-block;
+    line-height: 46.4px;
+    text-align: center;
+}
+
+.header .body .action .action-btn:first-child {
+    color: #494949;
+    padding: 0px 24px;
+}
+
+.header .body .action .action-btn:last-child {
+    min-width: 108px;
+    color: var(--primary);
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid var(--primary);
+}
+
+.header .body .action .action-btn:last-child:hover {
+    background-color: var(--primary);
+    color: #FFF;
+}
