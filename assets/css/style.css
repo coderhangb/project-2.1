@@ -50,6 +50,17 @@ a {
     opacity: 0.9;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 3);
+    line-clamp: var(--line-clamp, 3);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.break-all {
+    word-break: break-word;
+}
 /* ===========================Header================================ */
 .header {
     background-color: #FFF;
@@ -115,7 +126,7 @@ a {
 
 /* ===========================Hero================================ */
 .hero {
-    margin-top: 48px;
+    padding: 42px 0px 79px;
 }
 
 .hero .content {
@@ -290,4 +301,70 @@ a {
 
 .hero .image .student .avatar .ava:not(:first-child) {
     margin-left: -7px;
+}
+
+/* ===========================Feature================================ */
+.feature {
+    margin-top: 65px;
+    padding: 65px 0;
+}
+
+.feature .content {
+    width: 1024px;
+    padding-left: auto;
+}
+
+.feature .greet {
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.feature .title {
+    margin-top: 18px;
+    width: 54.4%;
+    color: #0D1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33333;
+}
+
+.feature .desc {
+    margin-top: 18px;
+    width: 57.6%;
+    color: #767E7E;
+    font-size: 1.8rem;
+}
+
+.feature .item-list {
+    margin-top: 80px;
+    display: flex;
+}
+
+.feature .item-list .item:nth-child(1){
+    margin-right: 209px;
+    width: 16.4%;
+}
+
+.feature .item-list .item:nth-child(2){
+    margin-right: 200px;
+    width: 21.78%;
+}
+
+.feature .item-list .item:nth-child(3){
+    width: 21.875%;
+}
+
+.feature .item-list .item .item-title {
+    margin-top: 26px;
+    color: #0D1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.feature .item-list .item .item-desc {
+    margin-top: 16px;
+    color: #9DA6A5;
+    font-size: 1.6rem;
+    line-height: 1.6875;
 }
