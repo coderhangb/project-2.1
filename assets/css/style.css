@@ -662,3 +662,34 @@ a {
     border-radius: 50%;
     object-fit: cover;
 }
+
+/* ===========================Ready to get admit================================ */
+.ready {
+    margin-top: 100px;
+    padding: 76px 0px 88px;
+    background: #DEF6F5;
+}
+
+.ready .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ready .row .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ready .row .desc {
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.ready .row .btn {
+    margin-right: 155px;
+}
