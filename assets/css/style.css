@@ -373,7 +373,7 @@ a {
 
 /* ===========================Popular================================ */
 .popular {
-    padding: 65px 0;
+    padding: 65px 0 35px;
 }
 
 .popular .popular-course .greet {
@@ -532,4 +532,133 @@ a {
     margin-top: 11px;
     color: #767E7E;
     font-size: 1.8rem;
+}
+
+/* ===========================Feedback================================ */
+.feedback {
+    padding: 30px;
+}
+
+.feedback .content {
+    display: flex;
+}
+
+.feedback .info {
+    width: 35.8%;
+    padding: 37px 0px;
+}
+
+.feedback .info .review {
+    margin-top: 27px;
+    color: #5D6564;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.feedback .info .author {
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.feedback .info .author .name {
+    margin-left: 5px;
+    color: #767E7E;
+}
+
+.feedback .info .author strong {
+    color: #070707;
+    font-weight: 500;
+}
+
+.feedback .button {
+    margin-top: 52px;
+    display: flex;
+}
+
+.feedback .button .icon-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: #2AC9BF;
+    border: 1px solid #2AC9BF;
+    border-radius: 50%;
+}
+
+.feedback .button .icon-btn:not(:first-child) {
+    margin-left: 30px;
+}
+
+.feedback .button .icon-btn:hover {
+    color: #FFF;
+    background-color: #2AC9BF;
+    cursor: pointer;
+}
+
+.feedback .avatar {
+    width: 64.2%;
+    position: relative;
+}
+
+.feedback .avatar .ava-main {
+    position: absolute;
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .avatar .ava-92x92 {
+    position: absolute;
+    top: 0;
+    right: 443px;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .avatar .ava-110x110 {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    left: calc(100%-110px);
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .avatar .ava-78x78 {
+    position: absolute;
+    bottom: 0;
+    right: 357px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .avatar .ava-78x78-2 {
+    position: absolute;
+    bottom: 145px;
+    right: 601px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .avatar .ava-78x78-3 {
+    position: absolute;
+    bottom: 29px;
+    right: 32px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
 }
