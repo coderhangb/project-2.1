@@ -13,7 +13,6 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-    height: 5000px;
 }
 
 html,
@@ -424,8 +423,11 @@ a {
     gap: 47px;
 }
 
-.popular .popular-course .list .item .thumb {
+.popular .popular-course .list .course {
     position: relative;
+}
+
+.popular .popular-course .list .item .thumb {
     width: 100%;
     height: 393px;
     object-fit: cover;
@@ -435,6 +437,9 @@ a {
 }
 
 .popular .popular-course .list .item .info {
+    position: absolute;
+    top: 322px;
+    left: 17px;
     width: 325px;
     height: 195px;
     display: flex;
@@ -450,13 +455,10 @@ a {
 
 .popular .popular-course .list .item .info .sub-title {
     --line-clamp: 2;
+    color: #0D1111;
     font-size: 2.2rem;
     font-weight: 700;
     line-height: normal;
-}
-
-.popular .popular-course .list .item .info a {
-    color: #0D1111;
 }
 
 .popular .popular-course .list .item .info .price {
@@ -692,4 +694,75 @@ a {
 
 .ready .row .btn {
     margin-right: 155px;
+}
+
+/* ===========================Footer================================ */
+.footer {
+    margin-top: 80px;
+    padding: 50px 0px;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .row-top .column:not(:last-child) {
+    margin-left: 144px;
+}
+
+.footer .row-top .column:last-child {
+    margin-left: 137px;
+}
+
+.footer .row-top .column .title {
+    color: #2E2E2E;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .row-top .column:not(:last-child) .title {
+    margin-bottom: 26px;
+}
+
+.footer .row-top .column:not(:last-child) .item {
+    margin-top: 18px;
+}
+
+.footer .row-top .column .item a {
+    color: #535353;
+    line-height: normal;
+}
+
+.footer .row-top .column .item a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.footer .row-top .column:last-child .item {
+    margin-top: 6px;
+    padding: 8px 0px;
+}
+
+.footer .row-top .column:last-child .item .social-icon {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.footer .row-top .column:last-child .item .icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .row-bot .copyright {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #B0B5B4;
+    font-size: 1.8rem;
+    line-height: normal;
 }
