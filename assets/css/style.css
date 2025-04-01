@@ -335,6 +335,7 @@ a {
     width: 57.6%;
     color: #767E7E;
     font-size: 1.8rem;
+    line-height: normal;
 }
 
 .feature .item-list {
@@ -432,8 +433,11 @@ a {
     height: 393px;
     object-fit: cover;
     border-radius: 8px;
-    opacity: 0.35;
     background: #D0EFED;
+}
+
+.popular .popular-course .list .course:hover .thumb {
+    opacity: 0.35;
 }
 
 .popular .popular-course .list .item .info {
